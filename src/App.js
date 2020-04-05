@@ -1,32 +1,141 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
-// const formatNumber = (number) =>
-//   new Intl.NumberFormat("en", { minimumFractionDigits: 2 }).format(number);
+const createLogger = (name) => {
+  const log = (level, message, extra) => {
+    if (extra !== undefined) {
+      console[level](`[${name}] ${message}`, extra);
+    } else {
+      console[level](`[${name}] ${message}`);
+    }
+  };
 
-class App extends Component {
-  render() {
-    return (
-      <section className="product-list">
-        <input type="text" />
-        <table>
-          <thead>
+  return {
+    info: (message, extra) => {
+      log("info", message, extra);
+    },
+    warning: (message, extra) => {
+      log("warn", message, extra);
+    },
+    error: (message, extra) => {
+      log("error", message, extra);
+    },
+  };
+};
+
+const logger = createLogger("App");
+
+const formatNumber = (number) =>
+  new Intl.NumberFormat("en", { minimumFractionDigits: 2 }).format(number);
+
+const App = () => {
+  const [state, setState] = useState({
+    uiState: "LOADING",
+    sortedProducts: undefined,
+    total: undefined,
+  });
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        logger.info("Getting data");
+        const results = await Promise.all([
+          fetch("./api/branch1.json"),
+          fetch("./api/branch2.json"),
+          fetch("./api/branch3.json"),
+        ]);
+        const data = await Promise.all(results.map((result) => result.json()));
+        logger.info("Got data", data);
+
+        const products = data.map((branchData) => branchData.products).flat();
+        logger.info("Products", products);
+
+        const productsById = {};
+        for (var product of products) {
+          const existingProduct = productsById[product.id];
+          if (existingProduct) {
+            productsById[product.id] = {
+              ...existingProduct,
+              sold: existingProduct.sold + product.sold,
+            };
+          } else {
+            productsById[product.id] = product;
+          }
+        }
+        logger.info("Products by id", productsById);
+
+        const sortedProducts = Object.values(productsById);
+        sortedProducts.sort((a, b) =>
+          a.name > b.name ? 1 : b.name > a.name ? -1 : 0
+        );
+        logger.info("Sorted products", sortedProducts);
+
+        let total = 0;
+        sortedProducts.forEach((product) => {
+          product.revenue = product.sold * product.unitPrice;
+          total += product.revenue;
+        });
+
+        setState({
+          uiState: "READY",
+          sortedProducts,
+          total,
+        });
+      } catch (error) {
+        logger.error("Failed to load products", error);
+        setState({
+          uiState: "ERROR",
+          sortedProducts: undefined,
+          total: undefined,
+        });
+      }
+    };
+
+    getData();
+  }, []);
+
+  return (
+    <section className="product-list">
+      <input type="text" />
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Revenue</th>
+          </tr>
+        </thead>
+        <tbody>
+          {state.uiState === "LOADING" && (
             <tr>
-              <th>Product</th>
-              <th>Revenue</th>
+              <td colSpan="2" className="loading">
+                Loading...
+              </td>
             </tr>
-          </thead>
-          <tbody></tbody>
-          <tfoot>
+          )}
+          {state.uiState === "ERROR" && (
             <tr>
-              <td>Total</td>
-              <td></td>
+              <td colSpan="2" className="error">
+                Error loading product list
+              </td>
             </tr>
-          </tfoot>
-        </table>
-      </section>
-    );
-  }
-}
+          )}
+          {state.uiState === "READY" &&
+            state.sortedProducts.map((product) => (
+              <tr key={product.id}>
+                <td>{product.name}</td>
+                <td>{formatNumber(product.revenue)}</td>
+              </tr>
+            ))}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>{state.uiState === "READY" && formatNumber(state.total)}</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  );
+};
 
 export default App;
