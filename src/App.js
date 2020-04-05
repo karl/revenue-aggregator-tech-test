@@ -3,6 +3,10 @@ import "./App.css";
 
 const createLogger = (name) => {
   const log = (level, message, extra) => {
+    if (process.env.NODE_ENV === "test") {
+      return;
+    }
+
     if (extra !== undefined) {
       console[level](`[${name}] ${message}`, extra);
     } else {
