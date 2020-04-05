@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 
-const formatNumber = number => new Intl.NumberFormat("en", { minimumFractionDigits: 2 }).format(number);
+// const formatNumber = (number) =>
+//   new Intl.NumberFormat("en", { minimumFractionDigits: 2 }).format(number);
 
 class App extends Component {
   render() {
@@ -15,8 +16,7 @@ class App extends Component {
               <th>Revenue</th>
             </tr>
           </thead>
-          <tbody>
-          </tbody>
+          <tbody></tbody>
           <tfoot>
             <tr>
               <td>Total</td>
