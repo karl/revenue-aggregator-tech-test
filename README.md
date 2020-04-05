@@ -1,5 +1,13 @@
 # Revenue aggregator application
 
+A deployed version of the project is available here:
+
+https://revenue-aggregator-tech-test.now.sh/
+
+---
+
+# Tech Test Requirements
+
 You are creating an [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) of a revenue aggregator application. It's a React-based web application which displays a list of products of a store in a table that is sorted, filterable and displays total revenue in the filtered list.
 
 ## Setup
