@@ -14,7 +14,7 @@ exports[`renders table that is sorted ascending 1`] = `
   </thead>
   <tbody>
     <tr
-      key="Alfalfa Sprouts"
+      key="082"
     >
       <td>
         Alfalfa Sprouts
@@ -24,7 +24,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Apple"
+      key="027"
     >
       <td>
         Apple
@@ -34,7 +34,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Apricot"
+      key="048"
     >
       <td>
         Apricot
@@ -44,7 +44,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Artichoke"
+      key="068"
     >
       <td>
         Artichoke
@@ -54,7 +54,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Asian Pear"
+      key="110"
     >
       <td>
         Asian Pear
@@ -64,7 +64,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Asparagus"
+      key="070"
     >
       <td>
         Asparagus
@@ -74,7 +74,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Atemoya"
+      key="041"
     >
       <td>
         Atemoya
@@ -84,7 +84,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Avocado"
+      key="013"
     >
       <td>
         Avocado
@@ -94,7 +94,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Bamboo Shoots"
+      key="054"
     >
       <td>
         Bamboo Shoots
@@ -104,7 +104,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Banana"
+      key="067"
     >
       <td>
         Banana
@@ -114,7 +114,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Bean Sprouts"
+      key="120"
     >
       <td>
         Bean Sprouts
@@ -124,7 +124,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Beans"
+      key="107"
     >
       <td>
         Beans
@@ -134,7 +134,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Beets"
+      key="111"
     >
       <td>
         Beets
@@ -144,7 +144,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Belgian Endive"
+      key="034"
     >
       <td>
         Belgian Endive
@@ -154,7 +154,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Bell Peppers"
+      key="129"
     >
       <td>
         Bell Peppers
@@ -164,7 +164,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Bitter Melon"
+      key="020"
     >
       <td>
         Bitter Melon
@@ -174,7 +174,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Blackberries"
+      key="083"
     >
       <td>
         Blackberries
@@ -184,7 +184,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Blueberries"
+      key="035"
     >
       <td>
         Blueberries
@@ -194,7 +194,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Bok Choy"
+      key="000"
     >
       <td>
         Bok Choy
@@ -204,7 +204,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Boniato"
+      key="001"
     >
       <td>
         Boniato
@@ -214,7 +214,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Boysenberries"
+      key="059"
     >
       <td>
         Boysenberries
@@ -224,7 +224,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Broccoflower"
+      key="073"
     >
       <td>
         Broccoflower
@@ -234,7 +234,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Broccoli"
+      key="062"
     >
       <td>
         Broccoli
@@ -244,7 +244,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Brussels Sprouts"
+      key="060"
     >
       <td>
         Brussels Sprouts
@@ -254,7 +254,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cabbage"
+      key="080"
     >
       <td>
         Cabbage
@@ -264,7 +264,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cactus Pear"
+      key="039"
     >
       <td>
         Cactus Pear
@@ -274,7 +274,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cantaloupe"
+      key="105"
     >
       <td>
         Cantaloupe
@@ -284,7 +284,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Carambola"
+      key="010"
     >
       <td>
         Carambola
@@ -294,7 +294,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Carrots"
+      key="119"
     >
       <td>
         Carrots
@@ -304,7 +304,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Casaba Melon"
+      key="003"
     >
       <td>
         Casaba Melon
@@ -314,7 +314,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cauliflower"
+      key="056"
     >
       <td>
         Cauliflower
@@ -324,7 +324,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Celery"
+      key="008"
     >
       <td>
         Celery
@@ -334,7 +334,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Chayote"
+      key="077"
     >
       <td>
         Chayote
@@ -344,7 +344,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cherimoya"
+      key="066"
     >
       <td>
         Cherimoya
@@ -354,7 +354,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cherries"
+      key="100"
     >
       <td>
         Cherries
@@ -364,7 +364,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Coconuts"
+      key="131"
     >
       <td>
         Coconuts
@@ -374,7 +374,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Collard Greens"
+      key="030"
     >
       <td>
         Collard Greens
@@ -384,7 +384,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Corn"
+      key="015"
     >
       <td>
         Corn
@@ -394,7 +394,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cranberries"
+      key="058"
     >
       <td>
         Cranberries
@@ -404,7 +404,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Cucumber"
+      key="101"
     >
       <td>
         Cucumber
@@ -414,7 +414,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Dates"
+      key="117"
     >
       <td>
         Dates
@@ -424,7 +424,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Dried Plums"
+      key="019"
     >
       <td>
         Dried Plums
@@ -434,7 +434,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Eggplant"
+      key="005"
     >
       <td>
         Eggplant
@@ -444,7 +444,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Endive"
+      key="009"
     >
       <td>
         Endive
@@ -454,7 +454,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Escarole"
+      key="032"
     >
       <td>
         Escarole
@@ -464,7 +464,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Feijoa"
+      key="109"
     >
       <td>
         Feijoa
@@ -474,7 +474,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Fennel"
+      key="103"
     >
       <td>
         Fennel
@@ -484,7 +484,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Figs"
+      key="074"
     >
       <td>
         Figs
@@ -494,7 +494,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Garlic"
+      key="122"
     >
       <td>
         Garlic
@@ -504,7 +504,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Gooseberries"
+      key="099"
     >
       <td>
         Gooseberries
@@ -514,7 +514,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Grapefruit"
+      key="116"
     >
       <td>
         Grapefruit
@@ -524,7 +524,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Grapes"
+      key="021"
     >
       <td>
         Grapes
@@ -534,7 +534,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Green Beans"
+      key="002"
     >
       <td>
         Green Beans
@@ -544,7 +544,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Green Onions"
+      key="031"
     >
       <td>
         Green Onions
@@ -554,7 +554,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Greens"
+      key="123"
     >
       <td>
         Greens
@@ -564,7 +564,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Guava"
+      key="069"
     >
       <td>
         Guava
@@ -574,7 +574,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Hominy"
+      key="098"
     >
       <td>
         Hominy
@@ -584,7 +584,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Honeydew Melon"
+      key="096"
     >
       <td>
         Honeydew Melon
@@ -594,7 +594,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Horned Melon"
+      key="092"
     >
       <td>
         Horned Melon
@@ -604,7 +604,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Iceberg Lettuce"
+      key="004"
     >
       <td>
         Iceberg Lettuce
@@ -614,7 +614,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Jerusalem Artichoke"
+      key="022"
     >
       <td>
         Jerusalem Artichoke
@@ -624,7 +624,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Jicama"
+      key="007"
     >
       <td>
         Jicama
@@ -634,7 +634,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Kale"
+      key="114"
     >
       <td>
         Kale
@@ -644,7 +644,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Kiwifruit"
+      key="025"
     >
       <td>
         Kiwifruit
@@ -654,7 +654,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Kohlrabi"
+      key="033"
     >
       <td>
         Kohlrabi
@@ -664,7 +664,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Kumquat"
+      key="036"
     >
       <td>
         Kumquat
@@ -674,7 +674,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Leeks"
+      key="028"
     >
       <td>
         Leeks
@@ -684,7 +684,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Lemons"
+      key="126"
     >
       <td>
         Lemons
@@ -694,7 +694,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Lettuce"
+      key="071"
     >
       <td>
         Lettuce
@@ -704,7 +704,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Lima Beans"
+      key="084"
     >
       <td>
         Lima Beans
@@ -714,7 +714,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Limes"
+      key="076"
     >
       <td>
         Limes
@@ -724,7 +724,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Longan"
+      key="081"
     >
       <td>
         Longan
@@ -734,7 +734,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Loquat"
+      key="090"
     >
       <td>
         Loquat
@@ -744,7 +744,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Lychee"
+      key="047"
     >
       <td>
         Lychee
@@ -754,7 +754,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Madarins"
+      key="014"
     >
       <td>
         Madarins
@@ -764,7 +764,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Malanga"
+      key="018"
     >
       <td>
         Malanga
@@ -774,7 +774,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Mandarin Oranges"
+      key="087"
     >
       <td>
         Mandarin Oranges
@@ -784,7 +784,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Mangos"
+      key="061"
     >
       <td>
         Mangos
@@ -794,7 +794,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Mulberries"
+      key="042"
     >
       <td>
         Mulberries
@@ -804,7 +804,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Mushrooms"
+      key="075"
     >
       <td>
         Mushrooms
@@ -814,7 +814,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Napa"
+      key="104"
     >
       <td>
         Napa
@@ -824,7 +824,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Nectarines"
+      key="125"
     >
       <td>
         Nectarines
@@ -834,7 +834,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Okra"
+      key="086"
     >
       <td>
         Okra
@@ -844,7 +844,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Onion"
+      key="029"
     >
       <td>
         Onion
@@ -854,7 +854,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Oranges"
+      key="043"
     >
       <td>
         Oranges
@@ -864,7 +864,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Papayas"
+      key="051"
     >
       <td>
         Papayas
@@ -874,7 +874,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Parsnip"
+      key="016"
     >
       <td>
         Parsnip
@@ -884,7 +884,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Passion Fruit"
+      key="118"
     >
       <td>
         Passion Fruit
@@ -894,7 +894,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Peaches"
+      key="023"
     >
       <td>
         Peaches
@@ -904,7 +904,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Pears"
+      key="046"
     >
       <td>
         Pears
@@ -914,7 +914,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Peas"
+      key="050"
     >
       <td>
         Peas
@@ -924,7 +924,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Peppers"
+      key="093"
     >
       <td>
         Peppers
@@ -934,7 +934,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Persimmons"
+      key="024"
     >
       <td>
         Persimmons
@@ -944,7 +944,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Pineapple"
+      key="115"
     >
       <td>
         Pineapple
@@ -954,7 +954,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Plantains"
+      key="053"
     >
       <td>
         Plantains
@@ -964,7 +964,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Plums"
+      key="017"
     >
       <td>
         Plums
@@ -974,7 +974,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Pomegranate"
+      key="045"
     >
       <td>
         Pomegranate
@@ -984,7 +984,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Potatoes"
+      key="127"
     >
       <td>
         Potatoes
@@ -994,7 +994,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Prickly Pear"
+      key="044"
     >
       <td>
         Prickly Pear
@@ -1004,7 +1004,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Prunes"
+      key="038"
     >
       <td>
         Prunes
@@ -1014,7 +1014,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Pummelo"
+      key="130"
     >
       <td>
         Pummelo
@@ -1024,7 +1024,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Pumpkin"
+      key="097"
     >
       <td>
         Pumpkin
@@ -1034,7 +1034,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Quince"
+      key="102"
     >
       <td>
         Quince
@@ -1044,7 +1044,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Radicchio"
+      key="112"
     >
       <td>
         Radicchio
@@ -1054,7 +1054,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Radishes"
+      key="106"
     >
       <td>
         Radishes
@@ -1064,7 +1064,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Raisins"
+      key="078"
     >
       <td>
         Raisins
@@ -1074,7 +1074,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Raspberries"
+      key="011"
     >
       <td>
         Raspberries
@@ -1084,7 +1084,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Red Cabbage"
+      key="064"
     >
       <td>
         Red Cabbage
@@ -1094,7 +1094,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Rhubarb"
+      key="079"
     >
       <td>
         Rhubarb
@@ -1104,7 +1104,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Romaine Lettuce"
+      key="085"
     >
       <td>
         Romaine Lettuce
@@ -1114,7 +1114,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Rutabaga"
+      key="095"
     >
       <td>
         Rutabaga
@@ -1124,7 +1124,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Shallots"
+      key="094"
     >
       <td>
         Shallots
@@ -1134,7 +1134,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Snow Peas"
+      key="108"
     >
       <td>
         Snow Peas
@@ -1144,7 +1144,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Spinach"
+      key="012"
     >
       <td>
         Spinach
@@ -1154,7 +1154,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Sprouts"
+      key="040"
     >
       <td>
         Sprouts
@@ -1164,7 +1164,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Squash"
+      key="088"
     >
       <td>
         Squash
@@ -1174,7 +1174,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Strawberries"
+      key="063"
     >
       <td>
         Strawberries
@@ -1184,7 +1184,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="String Beans"
+      key="124"
     >
       <td>
         String Beans
@@ -1194,7 +1194,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Sweet Potato"
+      key="128"
     >
       <td>
         Sweet Potato
@@ -1204,7 +1204,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Tangelo"
+      key="072"
     >
       <td>
         Tangelo
@@ -1214,7 +1214,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Tangerines"
+      key="052"
     >
       <td>
         Tangerines
@@ -1224,7 +1224,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Tomatillo"
+      key="026"
     >
       <td>
         Tomatillo
@@ -1234,7 +1234,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Tomato"
+      key="113"
     >
       <td>
         Tomato
@@ -1244,7 +1244,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Turnip"
+      key="121"
     >
       <td>
         Turnip
@@ -1254,7 +1254,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Ugli Fruit"
+      key="049"
     >
       <td>
         Ugli Fruit
@@ -1264,7 +1264,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Water Chestnuts"
+      key="057"
     >
       <td>
         Water Chestnuts
@@ -1274,7 +1274,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Watercress"
+      key="006"
     >
       <td>
         Watercress
@@ -1284,7 +1284,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Watermelon"
+      key="091"
     >
       <td>
         Watermelon
@@ -1294,7 +1294,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Waxed Beans"
+      key="132"
     >
       <td>
         Waxed Beans
@@ -1304,7 +1304,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Yams"
+      key="089"
     >
       <td>
         Yams
@@ -1314,7 +1314,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Yellow Squash"
+      key="065"
     >
       <td>
         Yellow Squash
@@ -1324,7 +1324,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Yuca/Cassava"
+      key="037"
     >
       <td>
         Yuca/Cassava
@@ -1334,7 +1334,7 @@ exports[`renders table that is sorted ascending 1`] = `
       </td>
     </tr>
     <tr
-      key="Zucchini Squash"
+      key="055"
     >
       <td>
         Zucchini Squash
