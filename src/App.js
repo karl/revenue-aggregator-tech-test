@@ -32,8 +32,8 @@ const App = () => {
   const [state, setState] = useState({
     uiState: "LOADING",
     sortedProducts: undefined,
-    total: undefined,
   });
+  const [filter, setFilter] = useState("");
 
   useEffect(() => {
     const getData = async () => {
@@ -70,23 +70,19 @@ const App = () => {
         );
         logger.info("Sorted products", sortedProducts);
 
-        let total = 0;
         sortedProducts.forEach((product) => {
           product.revenue = product.sold * product.unitPrice;
-          total += product.revenue;
         });
 
         setState({
           uiState: "READY",
           sortedProducts,
-          total,
         });
       } catch (error) {
         logger.error("Failed to load products", error);
         setState({
           uiState: "ERROR",
           sortedProducts: undefined,
-          total: undefined,
         });
       }
     };
@@ -94,9 +90,29 @@ const App = () => {
     getData();
   }, []);
 
+  const filteredProducts =
+    state.uiState === "READY"
+      ? state.sortedProducts.filter((product) =>
+          product.name.toLowerCase().includes(filter.toLowerCase())
+        )
+      : undefined;
+
+  const total =
+    state.uiState === "READY"
+      ? filteredProducts.reduce((acc, product) => acc + product.revenue, 0)
+      : undefined;
+
   return (
     <section className="product-list">
-      <input type="text" />
+      <input
+        type="text"
+        value={filter}
+        onChange={(event) => {
+          const newFilter = event.target.value;
+          logger.info("Setting filter", newFilter);
+          setFilter(newFilter);
+        }}
+      />
       <table>
         <thead>
           <tr>
@@ -120,7 +136,7 @@ const App = () => {
             </tr>
           )}
           {state.uiState === "READY" &&
-            state.sortedProducts.map((product) => (
+            filteredProducts.map((product) => (
               <tr key={product.id}>
                 <td>{product.name}</td>
                 <td>{formatNumber(product.revenue)}</td>
@@ -130,7 +146,7 @@ const App = () => {
         <tfoot>
           <tr>
             <td>Total</td>
-            <td>{state.uiState === "READY" && formatNumber(state.total)}</td>
+            <td>{state.uiState === "READY" && formatNumber(total)}</td>
           </tr>
         </tfoot>
       </table>
